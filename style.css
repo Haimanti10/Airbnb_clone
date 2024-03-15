@@ -1,0 +1,251 @@
+.navi {
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  border-bottom: 1px solid grey;
+}
+.logo {
+  margin-left: 20px;
+  width: 150px;
+  height: 50px;
+  padding: 16px;
+}
+.search {
+  position: absolute;
+  display: flex;
+  width: 250px;
+  height: 50px;
+  padding: 5px;
+  margin-left: 400px;
+  top: 10px;
+}
+.inp-place {
+  color: black;
+  border: 1px solid grey;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+.inp-week {
+  color: black;
+  border: 1px solid grey;
+}
+.inp-guest {
+  color: grey;
+  border: 1px solid grey;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.searchimg {
+  width: 50px;
+  height: 50px;
+}
+.card-body {
+  position: absolute;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 1090px;
+  top: 20px;
+}
+.globe {
+  position: absolute;
+  margin-left: 1300px;
+  top: 20px;
+}
+.flex1 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 20px;
+  top: 10px;
+  margin-left: 1400px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.set {
+  position: absolute;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+.profile {
+  position: absolute;
+  margin-left: 40px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+.card2 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.card-img {
+  width: 5px;
+  height: 20px;
+}
+.icons {
+  margin-left: 16px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+.card2 p {
+  margin-top: 0px;
+  margin-left: 16px;
+}
+.icons2 {
+  margin-left: 0px;
+  margin-top: 30px;
+  width: 25px;
+  height: 25px;
+}
+.filter {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  border: 1px solid grey;
+  border-radius: 16px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  gap: 12px;
+}
+.icon3 {
+  width: 20px;
+  height: 20px;
+}
+.fil {
+  width: 30px;
+  height: 30px;
+}
+.card3 {
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  display: flex;
+  gap: 20px;
+  /*border: 1px solid black;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-header {
+  width: 400px;
+  height: 400px;
+  border-radius: 14px;
+}
+.card-header:hover {
+  width: 500px;
+  border: 1px solid grey;
+  box-shadow: 4px 6px 16px 8px #222;
+  cursor: pointer;
+}
+
+.card-img2 {
+  width: 100%;
+  height: 200px;
+  border-radius: 14px;
+}
+.flex-card-body1 {
+  width: 100px;
+  display: flex;
+  height: 300px;
+  gap: 90px;
+}
+
+.place {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+.small {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: 16px;
+  color: grey;
+}
+.night {
+  margin-top: 0px;
+  display: flex;
+}
+.tag {
+  display: flex;
+  gap: 10px;
+}
+.tax {
+  display: flex;
+  width: 450px;
+  height: 50px;
+  border-radius: 16px;
+  margin-top: 180px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  padding: 16px;
+  border: 1px solid grey;
+  gap: 8px;
+}
+.small1 {
+  color: grey;
+  font-size: 18px;
+}
+.card4 {
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  border-top: 1px solid grey;
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  background-color: white;
+}
+.bottom {
+  margin-top: 0px;
+  display: flex;
+  gap: 700px;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+.btn {
+  position: fixed;
+  bottom: 60px;
+  text-align: center;
+  width: 90px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 5px;
+  height: 30px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  margin-left: 700px;
+}
+.heart {
+  position: absolute;
+  top: 310px;
+  margin-left: 240px;
+}
+.heart2 {
+  position: absolute;
+  top: 720px;
+  margin-left: 240px;
+}
+.heart3 {
+  position: absolute;
+  top: 1160px;
+  margin-left: 240px;
+}
